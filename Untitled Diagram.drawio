@@ -22,6 +22,18 @@
         <mxCell id="pQx--AtDwb-EXY2tBUKx-15" value="EC2 instance" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pQx--AtDwb-EXY2tBUKx-3">
           <mxGeometry x="20" y="170" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pQx--AtDwb-EXY2tBUKx-19" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58536;gradientColor=none;" vertex="1" parent="pQx--AtDwb-EXY2tBUKx-3">
+          <mxGeometry x="50" y="28" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="pQx--AtDwb-EXY2tBUKx-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.613;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="pQx--AtDwb-EXY2tBUKx-3" target="pQx--AtDwb-EXY2tBUKx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119" y="60" as="sourcePoint" />
+            <mxPoint x="169" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="139" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pQx--AtDwb-EXY2tBUKx-4" value="10.0.0.0/16" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="48" width="80" height="30" as="geometry" />
         </mxCell>
@@ -42,28 +54,6 @@
         </mxCell>
         <mxCell id="pQx--AtDwb-EXY2tBUKx-12" value="RDS instance&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
           <mxGeometry x="472" y="240" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pQx--AtDwb-EXY2tBUKx-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pQx--AtDwb-EXY2tBUKx-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="250" as="sourcePoint" />
-            <mxPoint x="290" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="290" y="250" />
-              <mxPoint x="270" y="240" />
-              <mxPoint x="240" y="200" />
-              <mxPoint x="350" y="110" />
-              <mxPoint x="460" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pQx--AtDwb-EXY2tBUKx-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pQx--AtDwb-EXY2tBUKx-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="260" as="sourcePoint" />
-            <mxPoint x="650" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="220" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
